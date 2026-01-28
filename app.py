@@ -20,7 +20,7 @@ import json
 import random
 
 # load dataset from json file which is given in the folder
-with open('data1.json',encoding='utf-8') as json_data:
+with open('try.json',encoding='utf-8') as json_data:
     intents = json.load(json_data)
 context = {}
 
